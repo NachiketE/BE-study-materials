@@ -1,0 +1,227 @@
+Which of the following is a good alternative to the star schema?
+A. Snowflake schema
+B. Star schema
+C. Star snowflake schema
+D. Fact constellation
+ANSWER: D
+
+Patterns that can be discovered from a given database are which type
+A. More than one type
+B. Multiple types always
+C. One type only
+D. No specific type
+ANSWER: A
+
+A star schema has what type of relationship between a dimension and fact table?
+A. Many-to-many
+B. One-to-one
+C. One-to-many
+D. All of the above.
+ANSWER: C
+
+A snowflake schema is which of the following types of tables?
+A. Fact
+B. Dimension
+C. Helper
+D. All of the above
+ANSWER: D
+
+Euclidean distance measure is
+A. A stage of the KDD process in which new data is added to the existing selection.
+B. The process of finding a solution for a problem simply by enumerating all possible solutions according to some pre-defined order and then testing them
+C. The distance between two points as calculated using the Pythagoras theorem
+D. None of these
+ANSWER: C
+
+Which one manages both current and historic transactions?
+A. OLTP
+B. OLAP
+C. Spread sheet
+D. XML
+Answer: B
+
+The data Warehouse is__________.
+A. ReadOnly
+B. WriteOnly
+C. Read and write only
+D. None of these
+ANSWER: A
+
+Expansion for DSS in DW is__________.
+A. Decision Support system
+B. Decision Single System
+C. Data Storable System
+D. Data support system
+ANSWER: A
+
+The time horizon in Data warehouse is usually __________.
+A. 1-2 years
+B. 3-4 years
+C. 5-6 years
+D. 5-10 years
+ANSWER: D
+
+__________describes the data contained in the data warehouse
+A. Relational data
+B. Operational Data
+C. Meta Data
+D. Informational Data
+ANSWER: C
+
+Treating incorrect or missing data is called as ___________.
+A. Selection.
+B. Preprocessing
+C. Transformation
+D. Interpretation
+ANSWER: B
+
+Converting data from different sources into a common format for processing is called as________.
+A. Selection.
+B. Preprocessing
+C. Transformation
+D. Interpretation
+ANSWER: C
+
+Which is not a property of data warehouse?
+A. Subject oriented
+B. Time varient
+C. Volatile
+D. collection from heterogeneous sources
+ANSWER: C
+
+Data warehousing is used in_______________
+A. Transaction System
+B. Database management system
+C. Decision support system
+D. Expert system
+ANSWER: C
+
+What are the characeristics of OLAP systems?
+A. Query driven
+B. More users
+C. Integrated
+D. Store current data
+ANSWER: C
+
+Data warehouse is based on_____________
+A. two dimensional model
+B. three dimensional model
+C. Multi dimensional model
+D. Unidimensional model
+ANSWER: C
+
+Data warehousing is related to______
+A. delete data
+B. Update data
+C. Write new data
+D. scan and load data for analysis
+ANSWER: D
+
+Multidimensional model of data warehouse called as_____
+A. data structure
+B. table
+C. tree
+D. data cube
+ANSWER: D
+
+OLAP usage is____
+A. Repetative
+B. Adhoc
+C. Frequently
+D. Daily
+ANSWER: B
+
+In data warehousing what is time-variant data?
+A. Data in the warehouse is only accurate and valid at some point in time or over time interval
+B. Data in the warehouse is always accurate and valid 
+C. Data in the warehouse is not accurate
+D. Data in the warehouse is only accurate sometimes
+ANSWER: A
+
+Is the data in a data warehouse generally updated in real-time?
+A. YES
+B. NO
+ANSWER: B
+
+What is a Star Schema?
+A. A star schema consists of a fact table with a single table for each dimension
+B. A star schema is a type of database system
+C. A star schema is used when exporting data from the database
+D. None of these
+ANSWER: A
+
+What is a Snowflake Schema?
+A. Each dimension table is normalized, which may create additional tables attached to the dimension tables
+B. A Snowflake schema is a type of database system
+C. A Snowflake schema is used when exporting data from the database
+D. None of these
+ANSWER: A
+
+What does the acronym ETL stands for?
+A. Explain,Transfer and Lead
+B. Extract,Transform and Load
+C. Extract,Transfer and Load
+D. Effect,Transfer and Load
+ANSWER: B
+
+What is the system of data warehousing mostly used for?
+A. Data integration and Data Mining
+B. Data Mining and Data Storage
+C. Reporting and Data Analysis
+D. Data Cleaning and Data Storage
+ANSWER: C
+
+Which small logical units do data warehouses hold large amounts of information?
+A. Data Storage
+B. Data Marts
+C. Access layers
+D. Data Miners
+ANSWER: B
+
+Why do we need ODS? 
+A. To update data periodically
+B. To prepare data for ETL
+C. To back up data
+D. To prepare data for regression
+ANSWER: B
+
+Which one is correct for data warehousing?
+A. It can be updated by end users
+B. It can solve all business questions
+C. It is designed for focus subject areas
+D. It contains only current data
+ANSWER: C
+
+Why do we apply in snowflake schema?
+A. Aggregation
+B. Normalization
+C. Specialization
+D. Generalization
+ANSWER: B
+
+The data collected in data warehouse can be used for analyzing purposes.
+A. TRUE
+B. FALSE
+ANSWER: A
+
+A snowflake schema is a normalized star schema
+A. TRUE
+B. FALSE
+ANSWER: A
+
+A fact table is related to dimensional table as a ___ relationship
+A. 1:M
+B. M:N
+C. M:1
+D. 1:1
+ANSWER: C
+
+Data warehouse contains_____________data that is never found in the operational environment
+A. normalized.
+B. Informational
+C. Summary
+D. Denormalized
+ANSWER: C
+
+
+

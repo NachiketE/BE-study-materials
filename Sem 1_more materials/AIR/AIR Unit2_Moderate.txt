@@ -1,0 +1,41 @@
+ When do we call the states are safely explored?
+A.A goal state is unreachable from any state
+B.A goal state is denied access
+C.A goal state is reachable from every state
+C.None of the mentioned
+ANSWER:C 
+
+Which of the following algorithm is generally used CSP search algorithm?
+A.Breadth-first search algorithm
+B.Depth-first search algorithm
+C.Hill-climbing search algorithm
+D.None of the mentioned
+ANSWER:B 
+
+Which of the following conditions must hold for a solution to a CSP?
+A.All relations in all constraints must hold
+B.At least one relation in all constraints must hold.
+C.More than one relation in all constraints must hold.
+D.All relations in at least one constraint must hold.
+ANSWER:B 
+
+Which of the following are true for the algorithms Beam Stack Search (BSS)and Divide-and-Conquer Beam Stack Search (DCBSS).
+A. BSS finds the optimal path while DCBSS does not.
+B. DCBSS finds the optimal path while BSS does not.
+C. Both BSS and DCBSS find the optimal path
+D. Neither BSS and DCBSS find the optimal path
+ANSWER: C
+
+The performance of an agent can be improved by __________
+A. Learning
+B. Observing
+C. Perceiving
+D. Sensing
+ANSWER: A
+
+__________ Is an algorithm, a loop that continually moves in the direction of increasing value – that is uphill.
+A. Up-Hill Search
+B. Hill-Climbing
+C. Hill algorithm
+D. Reverse-Down-Hill search
+ANSWER: B

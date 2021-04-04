@@ -1,0 +1,203 @@
+Not only do formal logics allow representation of knowledge, but they also allow representation of knowledge   Mechanisms for reasoning using a collection of well-defined manipulation rules   Of Representations.
+A.	True
+B.	False
+ANSWER:A 
+
+If a logic produces only true statements and does not produce any false statement it shows which of the following property
+A.	Completeness
+B.	Soundness
+C.	Consistency
+D.	None of these
+ANSWER:B
+
+
+Is the following rule of inference valid one
+A.	No
+B.	Yes
+ANSWER:B
+
+
+_________Graph is used to represent semantic network
+A.	Undirected
+B.	Directed
+C.	Undirected
+D.	Any one of the above
+ANSWER:B
+
+What is the nature of the sentence: ∀x ∀y (TeacherOf(x,y) ⊃ StudentOf(y,x)) 
+A.	Symmetry 
+B.	Exhaustiveness 
+C.	Inverse
+D.	None of the above
+ANSWER:C 
+
+
+The formula or sentences that can be maid true by certain valuation function are called
+A.	Valid formula
+B.	Satisfiable formula
+C.	Unsatisfiable formula
+D.	Invalid Formula
+ANSWER:B
+
+A _________ is used to demonstrate, on a purely syntactic basis, that one formula is a logical consequence of another formula.
+A.Deductive Systems
+B.Inductive Systems
+C.Reasoning with Knowledge Based Systems
+D.Search Based Systems
+ANSWER:A 
+
+
+ A common convention is:
+• is evaluated first
+• and are evaluated next
+• Quantifiers are evaluated next
+• is evaluated last.
+A.True
+B.False
+ANSWER:A 
+
+A Term is either an individual constant (a 0-ary function), or a variable, or an n-ary function applied to n terms: F(t1 t2 ..tn).
+A.True
+B.False
+ANSWER:A 
+
+First Order Logic is also known as ___________
+A.First Order Predicate Calculus
+B.Quantification Theory
+C.Lower Order Calculus
+D.All of the mentioned
+ANSWER:D 
+
+
+Which is created by using single propositional symbol?
+A.Complex sentences
+B.Atomic sentences
+C.Composition sentences
+D.None of the mentioned
+ANSWER:B 
+
+Which is used to construct the complex sentences?
+A.Symbols
+B.Connectives
+C.Logical connectives
+D.All of the mentioned
+ANSWER:C 
+
+How many proposition symbols are there in artificial intelligence?
+A.1
+B.2
+C.3
+D.4
+ANSWER:B 
+
+Which is used to compute the truth of any sentence?
+A.Semantics of propositional logic
+B.Alpha-beta pruning
+C.First-order logic
+D.Both Semantics of propositional logic & Alpha-beta pruning
+ANSWER:A 
+
+Which are needed to compute the logical inference algorithm?
+A.Logical equivalence
+B.Validity
+C.Satisfiability
+D.All of the mentioned
+ANSWER:D 
+
+From which rule does the modus ponens are derived?
+A.Inference rule
+B.Module rule
+C.Both Inference & Module rule
+C.None of the mentioned
+ANSWER:A 
+
+Which is also called single inference rule?
+A.Reference
+B.Resolution
+C.Reform
+D.None of the mentioned
+ANSWER:B 
+
+
+Which form is called as a conjunction of disjunction of literals?
+A.Conjunctive normal form
+B.Disjunctive normal form
+C.Normal form
+D.All of the mentioned
+ANSWER:A 
+
+What can be viewed as a single lateral of disjunction?
+A.Multiple clause
+B.Combine clause
+C.Unit clause
+D.None of the mentioned
+ANSWER:C 
+
+
+A) Knowledge base (KB) is consists of set of statements.
+B) Inference is deriving a new sentence from the KB.
+Choose the correct option.
+A. A is true, B is true
+B. A is false, B is false
+C. A is true, B is false
+D. A is false, B is true
+ANSWER:A 
+
+What among the following constitutes the representation of the knowledge in different forms?
+A. Relational method where each fact is set out systematically in columns
+B. Inheritable knowledge where relational knowledge is made up of objects
+C. Inferential knowledge
+D. All of the mentioned
+ANSWER:D 
+
+What are Semantic Networks?
+A. A way of representing knowledge
+B. Data Structure
+C. Data Type
+D. None of the mentioned
+ANSWER:A 
+
+Graph used to represent semantic network is _____________
+A. Undirected graph
+B. Directed graph
+C. Directed Acyclic graph (DAG)
+D. Directed complete graph
+ANSWER:B 
+
+The basic inference mechanism in semantic network is to follow the links between the nodes.
+A. True
+B. False
+ANSWER:A 
+
+Which of the following elements constitutes the frame structure?
+A. Facts or Data
+B. Procedures and default values
+C. Frame names
+D. Frame reference in hierarchy
+ANSWER:A 
+
+There exists two way to infer using semantic networks in which knowledge is represented as Frames.
+A. Intersection Search
+B. Inheritance Search
+ANSWER:A 
+
+Which problem can frequently occur in backward chaining algorithm?
+A. Repeated states
+B. Incompleteness
+C. Complexity
+D. Both Repeated states & Incompleteness
+ANSWER:D 
+
+How to eliminate the redundant rule matching attempts in the forward chaining?
+A. Decremental forward chaining
+B. Incremental forward chaining
+C. Data complexity
+D. None of the mentioned
+ANSWER:B  
+
+Which of the following is an extension of the semantic network?
+A. Expert Systems
+B. Rule Based Expert Systems
+C. Decision Tree Based networks
+D. Partitioned Networks
+ANSWER:D 

@@ -1,0 +1,49 @@
+
+what is the issue of Forward State Space Planning?
+A. low banching factor.
+B. large branching factor.
+C. work in forward fashion
+D. work in backward fashion
+ANSWER: B
+
+Goal Stack Planning breaks up a ______________________________
+A. initial state
+B. stack in different part
+C. set of goal predicates into individual subgoals
+D. All of the above
+ANSWER: C
+
+What is true about Linear Planning? 
+A. It refers to the fact that the subgoals are attempted and solved in a linear order.
+B. attempts to solve subgoals individually one after another.
+C. attempts to solve subgoal individually in non linear fashion
+D. Both A & B
+ANSWER: D
+
+Agent interacts with the world via _______________ and ______________
+A. decision , effect
+B. Perception, decision
+C. Perception, Action
+D. Perception, effect
+ANSWER: C
+
+The start node for search in plan space planning is_______________
+A. BFS
+B. DFS
+C. Both DFS and BFS
+D. A*
+ANSWER: C
+
+In which chaining, the Left-Hand side is used to match the rules and Right-Hand side is used to check the effect of using the rule.
+A. Forward Chaining
+B. Backward Chaining
+C. Reverse Chaining
+D. Both B & C
+ANSWER: A
+
+The components of Expert system are?
+A. A Set of Rules, The Inference Engine (IE),  Forward Chaining
+B. A Set of Rules, Backward Chaining,  A Working Memory (WM)
+C. A Set of Rules, The Inference Engine (IE),  A Working Memory (WM)
+D. A Set of Rules, Forward Chaining,  Backward Chaining
+ANSWER: C

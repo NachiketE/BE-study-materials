@@ -1,0 +1,48 @@
+Is the below statement true for the domain of positive integers
+∀p ∃q ( p + q = 7)
+A.	Yes
+B.	No
+ANSWER:A 
+
+Which of the following is a sound rule of inference?
+A.	Q ∧ (P → Q) → P
+B.	P → (P ∨ Q)
+C.	Q  ∨ (P → Q) → P
+D.	All of above
+ANSWER:B
+
+Is the following Sentence valid?
+∀x ∃ y P(x,y) ≡ ∃ y ∀ x P(x,y)
+A.	Yes
+B.	No
+ANSWER:B
+
+Is ∀z S(x,y) a well-formed formula?
+A.	Yes
+B.	No
+ANSWER:A 
+
+The statement comprising the limitations of FOL is/are ____________
+A.Expressiveness
+B.Formalizing Natural Languages
+C.Many-sorted Logic
+D.All of the mentioned
+ANSWER:D 
+
+ The adjective “first-order” distinguishes first-order logic from ___________ in which there are predicates having predicates or functions as arguments, or in which one or both of predicate quantifiers or function quantifiers are permitted.
+A.presentational Verification
+B.Representational Adequacy
+C.Higher Order Logic
+D.Inferential Efficiency
+ANSWE:C 
+
+"In AI systems, Knowledge can be represented in two ways. What are these two ways?
+i.Machine Logic
+ii.Predicate Logic
+iii.Propositional Logic
+iv. Compound Logic"
+A. i. and ii.
+B. i. and iii.
+C. ii. and iii.
+D. iii. and iv.
+ANSWER:C 

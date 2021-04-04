@@ -1,0 +1,190 @@
+The working memory of the problem solver is like its _________________
+A.	Long term memory
+B.	Short term memory
+C.	Permanent Memory
+D.	None of these
+ANSWER:B
+_____________search regresses over goals and validate a plan before returning it.
+A.Forward state space
+B.Backward state space
+C.Goa stack
+D.None of these
+ANSWER:B
+_____________ Procedure selects a flaw in a given plan and looks for a resolver.
+A.Goal stack planning
+B.The plan space planning
+C.Recursive goal stack planning
+D.Partial order Planning
+ANSWER:B
+
+The relationships between behavioral acts are not defined in the partial order plan until absolutely necessary.
+A.True
+B.False
+ANSWER:B
+
+A* generates will not generate optimal solution if h(n) is a consistent heuristics and the search space is graph
+A.True
+B.False
+ANSWER:B
+	
+Which of the following combination of labels is not allowed for W joint in scene labelling is not allowed 
+A.(+,-,+)
+B.(-,+,-)
+C.(←,+,←)
+D.(←,←,←)
+ANSWER:D
+	
+If it is possible to extend each pair of consistent variable instantiation to a third variable, a CSP is said to be _________________
+A.Arc Consistent
+B.I- Consistent
+C.Path consistent.
+D.2- consistent
+ANSWER:C
+
+The __________algorithm explores the domain in a depth first manner.
+A.Backtracking
+B.Forward checking
+C.Arc consistency
+D.Strategic Retreat
+ANSWER:A
+
+ _________________ are mathematical problems defined as a set of objects whose state must satisfy a number of constraints or limitations.
+A.Constraints Satisfaction Problems
+B.Uninformed Search Problems
+C.Local Search Problems
+D.All of the mentioned
+ANSWER:A
+
+Which of the Following problems can be modeled as CSP?
+A.8-Puzzle problemB.
+B.8-Queen problem
+C.Map coloring problem
+D.All of the mentioned
+ANSWER:D
+
+The term ___________ is used for a depth-first search that chooses values for one variable at a time and returns when a variable has no legal values left to assign.
+a) Forward search
+b) Backtrack search
+c) Hill algorithm
+d) Reverse-Down-Hill search
+ANSWER:B
+
+Consider a problem of preparing a schedule for a class of student. What type of problem is this?
+a) Search Problem
+b) Backtrack Problem
+c) CSP
+d) Planning Problem
+ANSWER:C 
+
+Constraint satisfaction problems on finite domains are typically solved using a form of ___________
+a) Search Algorithms
+b) Heuristic Search Algorithms
+c) Greedy Search Algorithms
+d) All of the mentioned
+ANSWER:D
+
+Backtracking is based on ____________
+A.Last in first out
+B.First in first out
+C.Recursion
+D.Both Last in first out & Recursion
+ANSWER:D 
+
+The inference engine goes through which cycle?
+A. Match-Resolve-Execute
+B. Execute-Resolve-Match
+C. Resolve Match Match
+D. Resolve Match Execute
+ANSWER: A
+
+The output of MATCH routine in Inference Engine is ______________
+A. Pattern set
+B. Conflict set (CS)
+C. Rule set
+D. Action set
+ANSWER: B
+
+Operator PUTDOWN has which of the following sequence of actions?
+A. holding(x),Ontable(x),holding(x)
+B. holding(x),armempty, holding(x)
+C. holding(x),Ontable(x)
+D. holding(x),Ontable(x)^armempty, holding(x)
+ANSWER: D
+
+Frame problem in STRIPS Domain can be solved by _____________________
+A. Operator
+B. Frame Aximoms
+C. Precondition
+D. Action
+ANSWER: B
+
+PDDL stands for_________________________
+A. Path data description Language
+B. Planning Domain Description Language
+C. Planning data Description Language
+D. Path data deleted Language
+ANSWER: B
+
+In PDDL,the Language is based on _______________________
+A. Propositional logic notation
+B. Second Order Logic Notation
+C. First Order Logic Notation
+D. All of these
+ANSWER: C
+
+STRIPS operators are made up of which three components:
+A. P: Precondition List , A: Add List , D:Delete List 
+B. P: Postcondition List , A: Add List , D:Delete List 
+C. P: Precondition List , S: Sub List , D:Delete List 
+D. P: Postcondition List , S: Sub List , D:Delete List 
+ANSWER: A
+
+Which search algorithm imposes a fixed depth limit on nodes?
+A. Depth-limited search
+B. Depth-first search
+C. Iterative deepening search
+D. Bidirectional search
+ANSWER: A
+
+In a rule-based system, procedural domain knowledge is in the form of:___________
+A. production rules
+B. rule interpreters
+C. meta-rules
+D. control rules
+ANSWER: A
+
+_____________ is a state that is better than all its neighboring states but is not better than some other states further away
+A. Plateau
+B. Local Maximum
+C. Global Maximum
+D. All of the above
+ANSWER: B
+
+ ___________ algorithm keeps track of k states rather than just one.
+A. Hill-Climbing search
+B. Local Beam search
+C. Stochastic hill-climbing search
+D. Random restart hill-climbing search
+ANSWER: B
+
+Which is the most straightforward approach for planning algorithm?
+A. Best-first search
+B. State-space search
+C. Depth-first search
+D. Hill-climbing search
+ANSWER: B
+
+_______ is/are the well known Expert System/s for medical diagnosis systems
+A. MYSIN
+B. CADUCEUS
+C. DENDRAL
+D. SMH.PAL
+ANSWER: A
+
+Which of the following statement(s) is true for Sparse-Memory Graph Search (SMGS)?
+A. The boundary is defined as those nodes in CLOSED that have at least one successor still in OPEN
+B. The nodes in CLOSED that are not on the boundary are in the kernel
+C. The number of relay nodes on each path is exactly one.
+D. Both A & B
+ANSWER: D
+

@@ -1,0 +1,1009 @@
+Which is alternative options for latency hiding?
+A. Increase CPU frequency
+B. Multithreading
+C. Increase Bandwidth
+D. Increase Memory
+ANSWER: B
+
+______ Communication model is generally seen in tightly coupled system.
+A. Message Passing
+B. Shared-address space
+C. Client-Server
+D. Distributed Network
+ANSWER: B
+
+The principal parameters that determine the communication latency are as follows:
+A. Startup time (ts) Per-hop time (th) Per-word transfer time (tw)
+B. Startup time (ts) Per-word transfer time (tw)
+C. Startup time (ts) Per-hop time (th)
+D. Startup time (ts) Message-Packet-Size(W)
+ANSWER: A
+
+The number and size of tasks into which a problem is decomposed determines the __
+A. Granularity
+B. Task
+C. Dependency Graph
+D. Decomposition    
+ANSWER: A
+
+Average Degree of Concurrency is...
+A. The average number of tasks that can run concurrently over the entire duration of execution of the process.
+B. The average time that can run concurrently over the entire duration of execution of the process.
+C. The average in degree of task dependency graph.
+D. The average out degree of task dependency graph.
+ANSWER: A
+
+Which task decomposition technique is suitable for the 15-puzzle problem?
+A. Data decomposition
+B. Exploratory decomposition
+C. Speculative decomposition 
+D. Recursive decomposition
+ANSWER: B
+
+Which of the following method is used to avoid Interaction Overheads?
+A. Maximizing data locality
+B. Minimizing data locality
+C. Increase memory size
+D. None of the above.
+ANSWER: A
+
+Which of the following is not parallel algorithm model
+A. The Data Parallel Model 
+B. The work pool model
+C. The task graph model
+D. The Speculative Model
+ANSWER: D
+
+Nvidia GPU based on following architecture
+A. MIMD
+B. SIMD
+C. SISD
+D. MISD
+ANSWER: B
+
+What is Critical Path?                                                    	         
+A. The length of the longest path in a task dependency graph is called the critical path length.
+B. The length of the smallest path in a task dependency graph is called the critical path length.
+C. Path with loop
+D. None of the mentioned.
+ANSWER: A
+
+Which decompositioin technique uses divide-andconquer strategy?
+A. recursive decomposition
+B. Sdata decomposition
+C. exploratory decomposition
+D. speculative decomposition
+ANSWER: A
+
+If there are 6 nodes in a ring topology how many message passing cycles will be required to complete broadcast process in one to all?                                                    	                          
+A. 1
+B. 6
+C. 3
+D. 4
+ANSWER: 3
+
+If there is 4 X 4 Mesh topology network then how many ring operation will perform to complete one to all broadcast?                    							              
+A. 4
+B. 8
+C. 16
+D. 32
+ANSWER: 8
+
+Consider all to all broadcast in ring topology with 8 nodes. How many messages will be present with each node after 3rd step/cycle of communication?
+A. 3
+B. 4
+C. 6
+D. 7
+ANSWER: 4
+
+Consider Hypercube topology with 8 nodes then how many message passing cycles will require in all to all broadcast operation?								 
+A. The longest path between any pair of finish nodes.
+B. The longest directed path between any pair of start & finish node.
+C. The shortest path between any pair of finish nodes.
+D. The number of maximum nodes level in graph.
+ANSWER: D
+
+Scatter is ____________.							                      
+A. One to all broadcast communication
+B. All to all broadcast communication
+C. One to all personalised communication
+D. Node of the above.
+ANSWER: C
+
+If there is 4X4 Mesh Topology ______ message passing cycles will require complete all to all reduction.
+A. 4
+B. 6
+C. 8
+D. 16
+ANSWER: C
+
+Following issue(s) is/are the true about sorting techniques with parallel computing.
+A. Large sequence is the issue 
+B. Where to store output sequence is the issue
+C. Small sequence is the issue 
+D. None of the above
+ANSWER: B
+
+Partitioning on series done after ______________
+A. Local arrangement  
+B. Processess assignments
+C. Global arrangement
+D. None of the above
+ANSWER: C
+
+In Parallel DFS processes has following roles.(Select multiple choices if applicable)
+A. Donor
+B. Active
+C. Idle
+D. Passive
+ANSWER: A
+
+Suppose there are 16 elements in a series then how many phases will be required to sort the series using parallel odd-even bubble sort?
+A. 8
+B. 4
+C. 5
+D. 15
+ANSWER: D
+
+Which are different sources of Overheads in Parallel Programs?
+A. Interprocess interactions
+B. Process Idling
+C. All mentioned options
+D. Excess Computation
+ANSWER: C
+
+The ratio of the time taken to solve a problem on a parallel processors to the time required to solve the same problem on a single processor with p identical processing elements.
+A. The ratio of the time taken to solve a problem on a single processor to the time required to solve the same problem on a parallel computer with p identical processing elements. 
+B. The ratio of the time taken to solve a problem on a single processor to the time required to solve the same problem on a parallel computer with p identical processing elements
+C. The ratio of number of multiple processors to size of data 
+D. None of the above
+ANSWER: B
+
+Efficiency is a measure of the fraction of time for which a processing element is usefully employed.
+A. TRUE
+B. FALSE
+ANSWER: A
+
+CUDA helps do execute code in parallel mode using __________
+A. CPU
+B. GPU
+C. ROM
+D. Cash memory
+ANSWER: B
+
+In thread-function execution scenario thread is a ___________
+A. Work
+B. Worker
+C. Task
+D. None of the above
+ANSWER: B
+
+In GPU Following statements are true
+A. Grid contains Block
+B. Block contains Threads
+C. All the mentioned options.
+D. SM stands for Streaming MultiProcessor
+ANSWER: C
+
+Computer system of a parallel computer is capable of_____________
+A. Decentralized computing
+B. Parallel computing
+C. Centralized computing
+D. All of these
+ANSWER: A
+
+In which application system Distributed systems can run well?
+A. HPC
+B. Distrubuted Framework
+C. HRC
+D. None of the above
+ANSWER: A
+
+A pipeline is like .................... ?
+A. an automobile assembly line
+B. house pipeline
+C. both a and b
+D. a gas line
+ANSWER: A
+
+Pipeline implements ?
+A. fetch instruction
+B. decode instruction 
+C. fetch operand
+D. all of above
+ANSWER: D
+
+A processor performing fetch or decoding of different instruction during the execution of another instruction is called ______ ?
+A. Super-scaling
+B. Pipe-lining
+C. Parallel Computation
+D. None of these
+ANSWER: B
+
+In a parallel execution, the performance will always improve as the number of processors will increase?
+A. True
+B. False
+ANSWER: B
+
+VLIW stands for ?
+A. Very Long Instruction Word
+B. Very Long Instruction Width
+C. Very Large Instruction Word
+D. Very Long Instruction Width
+ANSWER: A
+
+In VLIW the decision for the order of execution of the instructions depends on the program itself?
+A. True
+B. False
+ANSWER: A
+
+Which one is not a limitation of a distributed memory parallel system?
+A. Higher communication time
+B. Cache coherency
+C. Synchronization overheads
+D. None of the above
+ANSWER: B
+
+Which of these steps can create conflict among the processors?
+A. Synchronized computation of local variables
+B. Concurrent write
+C. Concurrent read
+D. None of the above
+ANSWER: B
+
+Which one is not a characteristic of NUMA multiprocessors?
+A. It allows shared memory computing
+B. Memory units are placed in physically different location
+C. All memory units are mapped to one common virtual global memory
+D. Processors access their independent local memories
+ANSWER: D
+
+Which of these is not a source of overhead in parallel computing?
+A. Non-uniform load distribution
+B. Less local memory requirement in distributed computing
+C. Synchronization among threads in shared memory computing
+D. None of the above
+ANSWER: B
+
+Systems that do not have parallel processing capabilities are?
+A. SISD
+B. SIMD
+C. MIMD
+D. All of the above
+ANSWER: A
+
+How does the number of transistors per chip increase  according to Moore ´s law?
+A. Quadratically
+B. Linearly
+C. Cubicly
+D. Exponentially
+ANSWER: D
+
+Parallel processing may occur?
+A. in the instruction stream
+B. in the data stream
+C. both[A] and [B]
+D. none of the above
+ANSWER: C
+
+To which class of systems does the von Neumann computer belong?
+A. SIMD (Single Instruction Multiple Data)
+B. MIMD (Multiple Instruction Multiple Data)
+C. MISD (Multiple Instruction Single Data)
+D. SISD (Single Instruction Single Data)
+ANSWER: D
+
+Fine-grain threading is considered as a ______ threading?
+A. Instruction-level
+B. Loop level
+C. Task-level
+D. Function-level
+ANSWER: A
+
+Multiprocessor is systems with multiple CPUs, which are capable of independently executing different tasks in parallel.  In this category every processor and memory module has similar access time?
+A. UMA
+B. Microprocessor
+C. Multiprocessor
+D. NUMA
+ANSWER: A
+
+For inter processor communication the miss arises are called?
+A. hit rate
+B. coherence misses
+C. comitt misses
+D. parallel processing
+ANSWER: B
+
+NUMA architecture uses _______in design?
+A. cache
+B. shared memory
+C. message passing
+D. distributed memory
+ANSWER: D
+
+A multiprocessor machine which is capable of executing multiple instructions on multiple data sets?
+A. SISD
+B. SIMD
+C. MIMD
+D. MISD
+ANSWER: C
+
+In message passing, send and receive message between?
+A. Task or processes
+B. Task and Execution
+C. Processor and Instruction
+D. Instruction and decode
+ANSWER: A
+
+The First step in developing a parallel algorithm is_________?
+A. To Decompose the problem into tasks that can be executed concurrently
+B. Execute directly
+C. Execute indirectly
+D. None of Above
+ANSWER: A
+
+The number of tasks into which a problem is decomposed determines its?
+A. Granularity
+B. Priority
+C. Modernity
+D. None of above
+ANSWER: A 
+
+The length of the longest path in a task dependency graph is called?
+A. the critical path length
+B. the critical data length
+C. the critical bit length
+D. None of above
+ANSWER: A
+
+The graph of tasks (nodes) and their interactions/data exchange (edges)?
+A. Is referred to as a task interaction graph
+B. Is referred to as a task Communication graph
+C. Is referred to as a task interface graph
+D. None of Above
+ANSWER: A
+
+Mappings are determined by?
+A. task dependency
+B. task interaction graphs
+C. Both A and B
+D. None of Above
+ANSWER: C
+
+Decomposition Techniques are?
+A. recursive decomposition
+B. data decomposition
+C. exploratory decomposition
+D. All of Above
+ANSWER: D
+
+The Owner Computes Rule generally states that the process assigned a particular data item is responsible for?
+A. All computation associated with it
+B. Only one computation
+C. Only two computation
+D. Only occasionally computation
+ANSWER: A
+
+A simple application of exploratory decomposition is_?
+A. The solution to a 15 puzzle
+B. The solution to 20 puzzle 
+C. The solution to any puzzle 
+D. None of Above
+ANSWER: A
+
+Speculative Decomposition consist of _?
+A. conservative approaches
+B. optimistic approaches
+C. Both A and B
+D. Only B
+ANSWER: C
+
+task characteristics include?
+A. Task generation.
+B. Task sizes.
+C. Size of data associated with tasks.
+D. All of Above
+ANSWER: D
+
+Writing parallel programs is referred to as?
+A. Parallel computation
+B. Parallel processes
+C. Parallel development
+D. Parallel programming
+ANSWER: D
+
+Parallel Algorithm Models?
+A. Data parallel model
+B. Bit model
+C. Data model
+D. network model
+ANSWER: A
+
+The number and size of tasks into which a problem is decomposed determines the?
+A. fine-granularity
+B. coarse-granularity
+C. sub Task
+D. granularity
+ANSWER: A
+
+A feature of a task-dependency graph that determines the average degree of concurrency for a given granularity is its ___________ path?
+A. critical
+B. easy
+C. difficult
+D. ambiguous
+ANSWER: A
+
+The pattern of___________ among tasks is captured by what is known as a task-interaction graph?
+A. Interaction
+B. communication
+C. optmization
+D. flow
+ANSWER: A
+
+Interaction overheads can be minimized by____?
+A. Maximize Data Locality
+B. Maximize Volume of data exchange
+C. Increase Bandwidth
+D. Minimize social media contents
+ANSWER: A
+
+Type of parallelism that is naturally expressed by independent tasks in a task-dependency graph is called _______ parallelism?
+A. Task
+B. Instruction
+C. Data
+D. Program
+ANSWER: A
+
+Speed up is defined as a ratio of?
+A. s=Ts/Tp
+B. S= Tp/Ts
+C. Ts=S/Tp
+D. Tp=S /Ts
+ANSWER: A
+
+Parallel computing means to divide the job into several __________?
+A. Bit
+B. Data
+C. Instruction
+D. Task
+ANSWER: D
+
+ _________ is a method for inducing concurrency in problems that can be solved using the divide-and-conquer strategy?
+A. exploratory decomposition
+B. speculative decomposition
+C. data-decomposition
+D. Recursive decomposition
+ANSWER: C
+
+The___ time collectively spent by all the processing elements Tall = p TP?
+A. total
+B. Average
+C. mean
+D. sum
+ANSWER: A
+
+Group communication operations are built using point-to-point messaging primitives?
+A. True
+B. False
+ANSWER: A
+
+Communicating a message of size m over an uncongested network takes time ts + tmw?
+A. True 
+B. False
+ANSWER: A
+
+The dual of one-to-all broadcast is ?
+A. All-to-one reduction
+B. All-to-one receiver
+C. All-to-one Sum
+D. None of Above
+ANSWER: A
+
+A hypercube has? 
+A. 2d nodes
+B. 2d nodes
+C. 2n Nodes 
+D. N Nodes
+ANSWER: A
+
+A binary tree in which processors are (logically) at the leaves and internal nodes are routing nodes?
+A. True
+B. False
+ANSWER: A
+
+In All-to-All Broadcast each processor is thesource as well as destination?
+A. True
+B. False
+ANSWER: A
+
+The Prefix Sum Operation can be implemented using the ?
+A. All-to-all broadcast kernel.
+B. All-to-one broadcast kernel.
+C. One-to-all broadcast Kernel
+D. Scatter Kernel
+ANSWER: A
+
+In the scatter operation ?
+A. Single node send a unique message of size m to every other node 
+B. Single node send a same message of size m to every other node 
+C. Single node send a unique message of size m to next node 
+D. None of Above
+ANSWER: A
+
+The gather operation is exactly the inverse of the ?
+A. Scatter operation
+B. Broadcast operation
+C. Prefix Sum
+D. Reduction operation
+ANSWER: A
+
+In All-to-All Personalized Communication Each node has a distinct message of size m for every other node ?
+A. True 
+B. False
+ANSWER: A
+
+Parallel algorithms often require a single process to send identical data to all other processes or to a subset of them. This operation is known as _________?
+A. one-to-all broadcast
+B. All to one broadcast
+C. one-to-all reduction
+D. all to one reduction
+ANSWER: A
+
+In which of the following operation, a single node sends a unique message of size m to every other node?
+A. Gather
+B. Scatter
+C. One to all personalized communication
+D. Both A and C
+ANSWER: D
+
+Gather operation is also known as ________?
+A. One to all personalized communication
+B. One to all broadcast
+C. All to one reduction
+D. All to All broadcast
+ANSWER: A
+
+one-to-all personalized communication does not involve any duplication of data?
+A. True
+B. False
+ANSWER: A
+
+Gather operation, or concatenation, in which a single node collects a unique message from each node?
+A. True
+B. False
+ANSWER: A
+
+Conventional architectures coarsely comprise of a?
+A.  A processor
+B.  Memory system
+C.  Data path.
+D. All of Above
+ANSWER: D
+
+Data intensive applications utilize?
+A. High aggregate throughput
+B.  High aggregate network bandwidth
+C.  High processing and memory system performance.
+D.  None of above
+ANSWER: A
+
+A pipeline is like?
+A. Overlaps various stages of instruction execution to achieve performance.
+B.  House pipeline 
+C.  Both a and b 
+D.  A gas line 
+ANSWER: A
+
+Scheduling of instructions is determined?
+A. True Data Dependency
+B. Resource Dependency
+C. Branch Dependency
+D. All of above
+ANSWER: D
+
+VLIW processors rely on?
+A.  Compile time analysis
+B.  Initial time analysis
+C. Final time analysis
+D. Mid time analysis
+ANSWER: A
+
+Memory system performance is largely captured by?
+A. Latency 
+B. Bandwidth
+C. Both a and b
+D. none of above
+ANSWER: C
+
+The fraction of data references satisfied by the cache is called?
+A. Cache hit ratio
+B. Cache fit ratio
+C. Cache best ratio
+D. none of above
+ANSWER: A
+
+A single control unit that dispatches the same Instruction to various processors is?
+A. SIMD
+B. SPMD
+C. MIMD
+D. None of above
+ANSWER: A
+
+The primary forms of data exchange between parallel tasks are?
+A.  Accessing a shared data space
+B.  Exchanging messages.
+C.  Both A and B
+D.  None of Above
+ANSWER: C
+
+Switches map a fixed number of inputs to outputs?
+A. True
+B. False
+ANSWER: A
+
+The First step in developing a parallel algorithm is?
+A. To Decompose the problem into tasks that can be executed concurrently
+B. Execute directly
+C. Execute indirectly
+D. None of Above
+ANSWER: A
+
+The number of tasks into which a problem is decomposed determines its?
+A. Granularity
+B. Priority
+C. Modernity
+D. None of above
+ANSWER: A
+
+The length of the longest path in a task dependency graph is called?
+A. the critical path length
+B. the critical data length
+C. the critical bit length
+D. None of above
+ANSWER: A 
+
+The graph of tasks (nodes) and their interactions/data exchange (edges)?
+A. Is referred to as a task interaction graph
+B. Is referred to as a task Communication graph
+C. Is referred to as a task interface graph
+D. None of Above
+ANSWER: A 
+
+Mappings are determined by?
+A. task dependency
+B. task interaction graphs
+C. Both A and B
+D. None of Above
+ANSWER: C
+
+Decomposition Techniques are?
+A. recursive decomposition
+B. data decomposition
+C. exploratory decomposition
+D. All of Above
+ANSWER: D
+
+The Owner Computes Rule generally states that the process assigned a particular data item are responsible for?
+A. All computation associated with it
+B. Only one computation
+C. Only two computation
+D. Only occasionally computation
+ANSWER: A 
+
+ A simple application of exploratory decomposition is?
+A. The solution to a 15 puzzle
+B. The solution to 20 puzzle 
+C. The solution to any puzzle 
+D. None of Above
+ANSWER: A 
+
+Speculative Decomposition consist of ?
+A. conservative approaches
+B. optimistic approaches
+C. Both A and B
+D. Only B
+ANSWER: C
+
+Task characteristics include?
+A. Task generation.
+B. Task sizes.
+C. Size of data associated with tasks.
+D. All of Above.
+ANSWER: D
+    
+Group communication operations are built using point-to-point messaging primitives?
+A. True
+B. False
+ANSWER: A 
+
+Communicating a message of size m over an uncongested network takes time ts + tmw?
+A. True 
+B. False
+ANSWER: A 
+
+The dual of one-to-all broadcast is?
+A. All-to-one reduction
+B. All-to-one receiver
+C. All-to-one Sum
+D. None of Above
+ANSWER: A 
+
+A hypercube has?
+A. 2d nodes
+B. 3d nodes
+C. 2n Nodes 
+D. N Nodes
+ANSWER: A 
+
+A binary tree in which processors are (logically) at the leaves and internal nodes are routing nodes? 
+A. True
+B. False
+ANSWER: A 
+
+In All-to-All Broadcast each processor is the source as well as destination?
+A. True
+B. False
+ANSWER: A 
+
+The Prefix Sum Operation can be implemented using the?
+A. All-to-all broadcast kernel.
+B. All-to-one broadcast kernel.
+C. One-to-all broadcast Kernel
+D. Scatter Kernel
+ANSWER: A 
+
+In the scatter operation?
+A. Single node send a unique message of size m to every other node 
+B. Single node send a same message of size m to every other node 
+C. Single node send a unique message of size m to next node 
+D. None of Above
+ANSWER: A 
+
+The gather operation is exactly the inverse of the?
+A. Scatter operation
+B. Broadcast operation
+C. Prefix Sum
+D. Reduction operation
+ANSWER: A 
+
+In All-to-All Personalized Communication Each node has a distinct message of size m for every other node?
+A. True 
+B. False
+ANSWER: A 
+
+Computer system of a parallel computer is capable of?
+A. Decentralized computing
+B. Parallel computing
+C. Centralized computing
+D. Decentralized computing
+E. Distributed computing
+ANSWER: A 
+
+Writing parallel programs is referred to as?
+A. Parallel computation
+B. Parallel processes
+C. Parallel development
+D. Parallel programming
+ANSWER: D
+
+Simplifies applications of three-tier architecture is ____________?
+A. Maintenance
+B. Initiation
+C. Implementation
+D. Deployment
+ANSWER: D
+
+Dynamic networks of networks, is a dynamic connection that grows  is  called?
+A. Multithreading
+B. Cyber cycle
+C. Internet of things
+D. Cyber-physical system
+ANSWER: C
+
+In which application system Distributed systems can run well?
+A. HPC
+D. HTC
+C. HRC
+D. Both A and B
+ANSWER: D
+
+In which systems desire  HPC and HTC?
+A. Adaptivity
+B. Transparency
+C. Dependency
+D. Secretive
+ANSWER: B
+
+No special machines manage the network of  architecture in which resources are known as?
+A. Peer-to-Peer
+B. Space based
+C. Tightly coupled
+D. Loosely coupled
+ANSWER: A
+
+Significant characteristics of Distributed systems have of ?
+A. 5 types
+B. 2 types
+C. 3 types
+D. 4 types
+ANSWER: C
+
+Built of  Peer machines are over?
+A. Many Server machines
+B. 1 Server machine
+C. 1 Client machine
+D. Many Client machines
+ANSWER: D
+
+Type HTC applications are?
+A. Business
+B. Engineering
+C. Science
+D. Media mass
+ANSWER: A
+
+Virtualization that creates one single address space architecture that of, is called?
+A. Loosely coupled
+B. Peer-to-Peer
+C. Space-based
+D. Tightly coupled
+ANSWER: C
+
+We have an internet cloud of resources In cloud computing to form?
+A. Centralized computing
+B. Decentralized computing
+C. Parallel computing
+D. All of these
+ANSWER: D
+
+Data access and storage are elements of  Job throughput, of __________?
+A. Flexibility
+B. Adaptation
+C. Efficiency
+D. Dependability
+ANSWER: C
+
+Billions of job requests is over massive data sets, ability to support known as?
+A. Efficiency
+B. Dependability
+C. Adaptation
+D. Flexibility
+ANSWER: C
+
+Broader concept offers Cloud computing .to select which of the following?
+A. Parallel computing
+B. Centralized computing
+C. Utility computing
+D. Decentralized computing
+ANSWER: C
+
+Resources and clients transparency that allows movement within a system is called?
+A. Mobility transparency
+B. Concurrency transparency
+C. Performance transparency
+D. Replication transparency
+ANSWER: A
+
+Distributed program in a distributed computer running a is known as?
+A. Distributed process
+B. Distributed program
+C. Distributed application
+D. Distributed computing
+ANSWER: B
+
+Uniprocessor computing devices is called__________?
+A. Grid computing
+B. Centralized computing
+C. Parallel computing
+D. Distributed computing
+ANSWER: B
+
+Utility computing focuses on a______________ model?
+A. Data
+B. Cloud
+C. Scalable
+D. Business
+ANSWER: D
+
+What is a CPS merges technologies?
+A. 5C
+B. 2C
+C. 3C
+D. 4C
+ANSWER: C
+
+Aberration of HPC?
+A. High-peak computing
+B. High-peripheral computing
+C. High-performance computing
+D. Highly-parallel computing
+ANSWER: C
+
+Peer-to-Peer leads to the development of technologies like?
+A. Norming grids
+B. Data grids
+C. Computational grids
+D. Both A and B
+ANSWER: D
+
+Type of HPC applications of?
+A. Management
+B. Media mass
+C. Business
+D. Science
+ANSWER: D
+
+The development generations of Computer technology has gone through?
+A. 6
+B. 3
+C. 4
+D. 5
+ANSWER: D
+
+Utilization rate of resources in an execution model is known to be its?
+A. Adaptation
+B. Efficiency
+C. Dependability
+D. Flexibility
+ANSWER: B
+
+Even under failure conditions Providing Quality of Service (QoS) assurance is the responsibility of?
+A. Dependability
+B. Adaptation
+C. Flexibility
+D. Efficiency
+ANSWER: A
+
+Interprocessor communication that takes place?
+A. Centralized memory
+B. Shared memory
+C. Message passing
+D. Both A and B
+ANSWER: D
+
+Data centers and centralized computing covers many and?
+A. Microcomputers
+B. Minicomputers
+C. Mainframe computers
+D. Supercomputers
+ANSWER: D
+
+Which of the following is an primary goal of HTC paradigm___________?
+A. High ratio Identification
+B. Low-flux computing
+C. High-flux computing
+D. Computer utilities
+ANSWER: C
+
+The high-throughput service provided is measures taken by
+A. Flexibility
+B. Efficiency
+C. Dependability
+D. Adaptation
+ANSWER: D
+
+What are the sources of overhead?
+A. Essential /Excess Computation
+B. Inter-process Communication
+C. Idling 
+D. All above 
+ANSWER: D 
+
+Which are the performance metrics for parallel systems?
+A. Execution Time 
+B. Total Parallel Overhead
+C. Speedup 
+D. All above 
+ANSWER: D 
+
+The efficiency of a parallel program can be written as: E = Ts / pTp. True or False?
+A. True 
+B. False 
+ANSWER: A
+
+The important feature of the VLIW is ______?
+A. ILP
+B. Performance
+C. Cost effectiveness
+D. delay
+ANSWER: A

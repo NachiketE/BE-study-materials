@@ -1,0 +1,225 @@
+What is true about Artificial Intelligence?
+A. The ability to solve problems.		
+B. The ability to act rationally. 
+C. The ability to act like humans	
+D. All of the above
+ANSWER: D
+
+Which of the following are Informed search algorithms?
+A. Best First Search	
+B. A* Search
+C. Iterative Deeping Search 
+D. Both a & b
+ANSWER: D
+
+If there is a solution, breadth first search is _______________to find it
+A. Difficult		
+B. Guaranteed
+C. Not able to find	
+D. None of the above
+ANSWER: B
+
+Which search strategy is combining the benefits of both BFS and DFS?
+A. Depth Limited Search
+B. A*
+C. Iterative Deepening Depth first search
+D. Best first search
+ANSWER: C
+
+Admissibility of the heuristic function is given as:
+A. h(n)>= h*(n)
+B. h(n)< h*(n)
+C. h(n)== h*(n)
+D. h(n)<= h*(n)
+ANSWER: D
+
+The efficiency of A* algorithm depends on __________________________
+A. depth
+B. the quality of heuristic
+C. unknown nodes
+D. d.	None of the above
+ANSWER: B
+
+What is the termination criteria in Hill climbing?
+A. when no successor of the node has better heuristic value.
+B. when successor of the node has better heuristic value.
+C. when no ancestor of the node has better heuristic value.
+D. when ancestor of the node has better heuristic value.
+ANSWER: A
+
+What is true about variable neighborhood function?
+A. Neighbourhood functions that are sparse lead to quicker movement during search
+B. algorithm has to inspect very fewer neighbours
+C. VDN stars searching with sparse Neighbourhood functions, when it reaches an optimum, it switches to denser function.
+D. All of the above
+ANSWER: D
+
+_______________________requires Linear Space but uses backtracking
+A. Breadth First Search
+B. Recursive Best First Search (RBFS)
+C. A*
+D. IDA*
+ANSWER: B
+
+Which property asks that the algorithm is locally admissible?
+A. Admissibility
+B. Monotonicity
+C. Informedness
+D. None of the above
+ANSWER: B
+
+A* Search Algorithm  _______________
+A. does not expand the node which have the lowest value of f(n),
+B. finds the shortest path through the search space using the heuristic function i.e f(n)=g(n) + h(n)
+C. terminates when the goal node is not found.
+D. All of the above     
+ANSWER: B
+
+Which is not problem in Hill climing?
+A. Plateau
+B. Ridges
+C. Local Maximum
+D. landscape       
+ANSWER: D
+
+Tabu search is designed  __________________________
+A. as it does not follow aspiration criteria
+B. to escape the trap of local optimality.
+C. to  unrecord forbidden moves, which are referred to as tabu moves .
+D. All of the above   
+ANSWER: B
+
+Production/Rule looks like________________
+A. Pattern-->Data
+B. Action-->Data
+C. Pattern-->Action
+D. None of the above
+ANSWER: C
+
+How can we convert AO graph with mixed nodes into graph with pure AND and OR nodes?
+A. By traversing multiple node
+B. By deleting one of the node
+C. By addition of extra node
+D. None of the above
+ANSWER: C
+
+Arc consistency in AO graph is concernd with ____________________________________
+A. Nodes
+B. finding consistent values for pairs of variables.
+C. unary constraint
+D. All of the above     
+ANSWER: B
+
+A planning problem P in BSSP is defined as a _____________
+A. triple (S, G, O) 
+B. triple (S1, S2, O) 
+C. triple (G1, G, O) 
+D. None of the above
+ANSWER: A
+
+Plan representation in Plan Space Planning is done with__ -----------links
+A. binding links
+B. ordering links and  casual link
+C. Contigent link
+D. head step
+ANSWER: B
+
+What is true aboout Iterative Deepening DFS?
+A. It does not perform DFS in a BFS fashion.
+B. It is the preferred informed search method
+C. It’s a Depth First Search, but it does it one level at a time, gradually increasing the limit, until a goal is found.
+D. Is a depth-first search with a fixed depth limit l       
+ANSWER: C
+
+What is the main advantage of backward state-space search?
+A. Cost
+B. Actions
+C. Relevant actions
+D. All of the mentioned
+ANSWER: C
+
+Backward State Space Planning (BSSP)_______________________________
+A. simply explores the set of all future states in possible order
+B. Start searching backwards from the goal
+C. leads to huge search space 
+D. has no sense of direction
+ANSWER: B
+
+In Backward State Space Planning ,regress(A,G) that returns ______________________________
+A. the regressed goal over action A when applied to goal G.
+B. the goal state over action A when applied to goal G.
+C. the initial state over action A when applied to goal G.
+D. Both A & B
+ANSWER: A
+
+What is true about Backward State Space Planning?  
+A. goal states are often incompletely specified.
+B. expresses only what is desired in the final state, rather than a complete description of the final state.
+C. It uses regression
+D. All of the above
+ANSWER: D
+
+effects⁺ (a) in Forward State Space Planning denotes ___________________
+A. denotes the set of negative effects of action a
+B. denotes the set of neutral effects of action a
+C. denotes the set of positive effects of action a
+D. None of the above
+ANSWER: C
+
+In Forward State Space Planning , Progress ( A, S) function returns  ___________________
+A. the successor state S when action A is applied to state S.
+B. the predecessor state S when action A is applied to state S.
+C. Both A & B
+D. None of the above
+ANSWER: A
+
+What are the drawbacks of Forward State Space Planning? 
+A. FSSP has very huge search space
+B. It includes the actions that have nothing go do with achieving the goal
+C. Regression is used in Forward State Space Planning
+D. Both A & B
+ANSWER: D
+
+What arcs represents in AO Graph?
+A. subproblem to be solved individually
+B. solution
+C. Path
+D. Sequence of actions
+ANSWER: A
+
+Which are the first AI applications of AO graph?
+A. SAINT
+B. XCON
+C. DENDRAL
+D. Both A and C
+ANSWER: D
+
+What is Hyper-Edge in AO Graph? 
+A. Many edges together can be Hyber edge
+B. Those are AND Edges only
+C. Both 1 and 2
+D. None of the above
+ANSWER: C
+
+What cost is assumed for arc while solving AO* progress example?
+A. 0
+B. 1
+C. 2
+D. 3
+ANSWER: B
+
+What is the heuristic cost of SOLVED nodes in AO* example?
+A. 0
+B. 1
+C. 2
+D. 3
+ANSWER: A
+
+What is used to lable primitive problems in AO problem?
+A. Unvisited
+B. UNSOLVED
+C. SOLVED
+D. visited
+ANSWER: C
+
+

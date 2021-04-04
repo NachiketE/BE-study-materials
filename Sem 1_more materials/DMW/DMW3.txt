@@ -1,0 +1,240 @@
+Identify correct type of attribute.
+A. nominal
+B. binary
+C. ordinal
+D. All of these
+ANSWER: D
+
+Minkowski distance is a function used to find the distance between two
+A. Binary vectors
+B. Boolean-valued vectors
+C. Real-valued vectors
+D. Categorical vectors
+ANSWER: C
+
+Which distance measure is similar to Simple Matching Coefficient (SMC)?
+A. Euclidean 
+B. Hamming 
+C. Jaccard 
+D. Manhattan 
+ANSWER: B
+
+Data set of designation {Professor, Assistant Professor, Associate Professor} is example of__________attribute. 
+A. Continuous  
+B. Ordinal  
+C. Numeric  
+D. Nominal 
+ANSWER: D
+
+Identify correct example of ordinal attributes? 
+A. Price of product 
+B. Age of person
+C. Car colors
+D. Students Grade
+ANSWER: D
+
+Identify the correct example of Nominal Attributes.
+A. Weight of person in Kg
+B. Income categories - HIGH, MEDIUM, LOW
+C. Mobile number
+D. All above
+ANSWER: B
+
+Consider the two objects i and j with nominal attributes, the dissimilarity between these objects are calculated using below equation:
+d(i,j)= (p-m)/p. In this formula what p and m represents?
+A. m  is the number of matches, p  is the total number of rows in the dataset
+B. m  is the number of matches, p   is the total number of variables/features
+C. m  is the matrix, p   is the total number of variables/features
+D. All are wrong
+ANSWER: B
+
+When objects are represented using single attribute, the proximity value 1 indicates :
+A. Objects are similar
+B. Objects are dissimilar
+C. Not equal
+D. Reflexive
+ANSWER: A
+
+The name of the table used for measuring similarity between objects represenred using 2 or more binary attributes is:
+A. Sqaure Matrix
+B. Contegency Table
+C. Triangular Matrix
+D. None of the above
+ANSWER: B
+
+Gender is the example of Asymmetric Binary Attribute.
+A. TRUE
+B. FALSE
+ANSWER: B
+
+Identity correct equation of Jacard Coefficient:
+A. J= f11/f01+f10+f11
+B. J= f11+f00/f01+f10+f11
+C.J= f11+f00/f01+f10
+D. None of these
+ANSWER: A
+
+If distance d is given we can calculate similarity using equation s= d-1. (True/ False)
+A. True
+B. False
+ANSWER: A
+
+What equation we get when r parameter =2 in Minskowski Distance formula?
+A. Manhattan distance
+B. Euclidean distance
+C. LMaximum Distance
+D. All
+ANSWER: B
+
+Identify the distance measure to calculate distance between two objects:
+A. Manhattan 
+B. L2  
+C. L1 
+D. Contgency Matrix
+ANSWER: A
+
+________is a generalization of Manhattan, Euclidean and Max Distance
+A. Euclidean Distance
+B. Minkowski Distance 
+C. Manhattan distance
+D. Jaccard Distance
+ANSWER: B
+
+______ distance is based on L2 norm.
+A. Euclidean Distance
+B. Minkowski Distance 
+C. Manhattan distance
+D. Jaccard Distance
+ANSWER: A
+
+_________ distance is based on L1 norm.
+A. Euclidean Distance
+B. Minkowski Distance 
+C. Manhattan distance
+D. Jaccard Distance
+ANSWER: C
+
+_________ refers to a similarity or dissimilarity
+A. Distance
+B. Proximity
+C. Enclidean
+D. Manhattan
+ANSWER: B
+
+Which is not the type of attribute used in distance measure?
+A. Ordinal
+B. Nominal
+C. Binay
+D. Rank
+ANSWER: D
+
+_____ method is used to find the distance between two objects represented by Nominal attributes.
+A. Euclidean Distance
+B. Minkowski Distance 
+C. Manhattan distance
+D. Simple Matching
+ANSWER: D
+
+_____ method is used to find the distance between two objects represented by numerical attributes.
+A. Euclidean Distance
+B. Minkowski Distance 
+C. Manhattan distance
+D. All of these
+ANSWER: D
+
+_____ method is used to find the distance between two objects represented by Binary attributes.
+A. Euclidean Distance
+B. Minkowski Distance 
+C. Manhattan distance
+D. Jaccard coefficient
+ANSWER: D
+
+Contingency table is prepared for _______ attribute data.
+A. Ordinal
+B. Nominal
+C. Binay
+D. Integer
+ANSWER: C 
+
+Which is not the property of distance?
+A. Distance is nonnegative number
+B. Distance of an object to itself is 0
+C. Distance is a symmetric function
+D. Distance is negative number
+ANSWER: D
+
+If d1 and d2 are two vectors, identify correct equation of cosine similarity.
+A. Cos(d1, d2)= (d1.d2)/ ||d1|| ||d2||
+B. Cos(d1, d2)= |d1|| ||d2|| / (d1.d2)
+C. Cos(d1, d2)= (d1.d2)
+D. Cos(d1, d2)= (d1.d2)/ ||d1||
+ANSWER: A
+
+Which are the applications of proximity measures?
+A. Classification
+B. Clustering
+C. KNN classifier
+D. All of these
+ANSWER: D
+
+If o1 and o2 are two objects and distance between these objects is 1 then o1 and o2 are totally similar (True/false)
+A. True
+B. False
+ANSWER: B
+
+If o1 and o2 are two objects and distance between these objects is 1 then o1 and o2 are totally dissimilar (True/false)
+A. True
+B. False
+ANSWER: A
+
+_________ matrix represents the distance between all objects in the dataset
+A. Confusion
+B. Dissimilarity 
+C. Similarity
+D. Square
+ANSWER: B
+
+If o1 and o2 are two objects and distance between these objects is 1 then it means_____
+A. o1 and o2 are totally similar
+B. o1 and o2 are totally dissimilar
+C. o1 and o2 are similar
+D. o1 and o2 are partially  dissimilar
+ANSWER: B
+
+If o1 and o2 are two objects and distance between these objects is zero then o1 and o2 are totally dissimilar (True/false)
+A. True
+B. False
+ANSWER: B
+
+If o1 and o2 are two objects and distance between these objects is zero then it means_____
+A. o1 and o2 are totally similar
+B. o1 and o2 are totally dissimilar
+C. o1 and o2 are similar
+D. o1 and o2 are partially  dissimilar
+ANSWER: A
+
+If o1 and o2 are two objects and distance between these objects is zero then o1 and o2 are totally similar (True/false)
+A. True
+B. False
+ANSWER: A
+
+Identify the correct subtype of Binary attribute.
+A. Ordinal
+B. Asymmetric
+C. Symmetric
+D. Both B and C
+ANSWER: D
+
+______ Is higher when objects are more alike
+A. Dissimilarity
+B. Distance
+C. Similarity
+D. Accuracy
+ANSWER: C
+
+_____ Lower when objects are more alike.
+A. Dissimilarity
+B. Recall
+C. Similarity
+D. Accuracy
+ANSWER: A
